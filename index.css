@@ -1,0 +1,501 @@
+html{
+	display: flex;
+	flex-direction: row;
+	width: 100%
+}
+
+*{
+margin: 0;
+padding: 0;
+font-family: 'Nunito', sans-serif;
+box-sizing: border-box;
+}
+
+body{
+width: 100%;
+height: 1440px;
+font-family: 'Nunito', sans-serif;
+box-sizing: border-box;
+
+}
+
+main{
+height: 1500px;
+box-sizing: border-box;
+margin: 0 auto;
+}
+
+.background{
+background: url(img/backimg.png) no-repeat;	
+width: 100%;
+height: 1300px;
+display: inline-block;
+box-sizing: border-box;
+}
+
+.logo{
+width: 50%;
+
+}
+
+.logo_img{
+width: 59px;
+height: 32px;
+position: absolute;
+left: 70px;
+top: 42px;
+}
+
+.logo_message{
+position: absolute;
+width: 60px;
+height: 31px;
+left: 60px;
+top: 74px;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 33px;
+color: #fff;
+}
+
+.menu{
+float: right;
+width: 50%;
+padding-top: 60px;
+padding-right: 70px;
+color: white;
+font-size: 18px;
+font-weight: 600;
+box-sizing: border-box;
+}
+
+.menu ul{
+list-style-type: none;
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+.menu ul li{
+padding-right: 54px;
+display: list-item;
+text-align: -webkit-match-parent;
+}
+
+li .menu_a{
+text-decoration: none;
+color: #fff;
+}
+
+ul li .last {
+background: #FDFFFC;
+display: flex;
+justify-content: space-around;
+flex-direction: column;
+text-align: center;
+padding-right: 0;
+font-size: 18px;
+width: 90px;
+height: 30px;
+border-radius: 4px;
+border: 0 solid;
+transform: translateY(-5px);
+}
+
+nav ul li:last-child a {
+color: #000;
+font-size: 18px;
+}
+
+.clear{
+clear: fixed;
+}
+
+.buy{
+width: 100%;
+height: 59px;
+font-weight: 600;
+font-size: 50px;
+color: #fff;
+letter-spacing: 0.01em;
+padding: 100px 0 0 60px;
+line-height: 102px;
+margin-top: 60px;
+}
+
+div .crypto-text {
+padding: 120px 0 0 60px;
+width: 50%;
+font-weight: 400;
+font-size: 36px;
+line-height: 74px;
+letter-spacing: 0.02em;
+color: #FFF;
+}
+
+.welcome_to_crypto{
+width: 100%;
+display: inline-block;
+text-align: center;
+margin-bottom: 300px;
+}
+
+.welcome{
+left: 40.28%;
+right: 40.35%;
+top: 32.12%;
+bottom: 67.03%;
+margin-bottom: 60px;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 33px;
+color: #333333;
+}
+
+.lorem{
+width: 73%;
+font-family: "Nunito", "sans-sarif";
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 44px;
+letter-spacing: 0.05em;
+color: #333;
+text-align: center;
+margin:0 auto;
+}
+
+.bg{
+width: 360px;
+height: 380px;
+background: url("data:image/svg+xml,%3Csvg width='14px' height='15px' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 22 22'%3E%3Ccircle cx='11' cy='11' r='3' fill='%23C4C4C4'%3E%3C/circle%3E%3C/svg%3E");
+}
+
+.crypto-products{
+width: 100%;
+}
+
+.crypto-products-first{
+width: 50%;
+display: flex;
+flex-direction: column;
+margin-right: 50px;
+}
+.crypto-products-bg{
+position: absolute;
+margin-left: 115px;
+}
+
+.crypto-products-h1{
+position: relative;
+margin-left: 165px;
+width: 530px;
+font-family: "Nunito", "sans-sarif";
+font-style: normal;
+font-weight: normal;
+font-size: 45px;
+line-height: 68px;
+color: #076572;
+letter-spacing: 0.07em;
+}
+
+.view-mor {
+margin-left: 165px;
+font-weight: 600;
+line-height: 33px;
+font-size: 24px;
+color: #333;
+position: relative;
+text-decoration: none;
+}
+
+.crypto-products-second {
+width: 50%;
+position: relative;
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+float: right;
+padding-bottom: 350px;
+}
+
+.crypto_bag {
+position: absolute;
+top: -395px;
+left: -40px;
+}
+
+.gold_diger {
+position: absolute;
+top: -269px;
+right: 168px;
+}
+
+.grafical{
+width: 100%;
+float: left;
+}
+
+.first_grafical{
+width: 50%;
+height: 500px;
+position: absolute;
+margin-left: 115px;
+}
+
+.grafic{
+position: absolute;
+top: 65px;
+left: 15px;
+}
+
+.second_grafical{
+width: 50%;
+float: right;
+position: relative;
+}
+
+.see {
+position: absolute;
+color: #076572;
+font-style: normal;
+font-weight: bold;
+font-size: 45px;
+line-height: 68px;
+align-items: center;
+}
+
+.some_lorem{
+position: absolute;
+top: 290px;
+left: 0px;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 37px;
+color: #333;
+text-align: left;
+}
+
+.mor_some{
+font-weight: 600;
+line-height: 33px;
+font-size: 24px;
+color: #333;
+position: absolute;
+top: 420px;
+left: 0px;
+text-decoration: none;
+}
+
+.manage_block{
+width: 100%;
+clear: fixed;
+display: block;
+position: relative;
+}
+
+.manage_first{
+width: 50%;
+float: left;
+position: absolute;
+top: 1000px;
+left: 120px;
+}
+
+.manage_h2{
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 45px;
+line-height: 68px;
+color: #076572;
+
+}
+
+.man_p{
+display: block;
+margin-top: 19px;
+font-family: Nunito;
+font-style: normal;
+font-weight: normal;
+font-size: 19px;
+line-height: 29px;
+letter-spacing: 0.1em;
+color: #282D32;
+padding-bottom: 80px;
+}
+
+.mor_again{
+margin-left: 0px;
+font-weight: 600;
+line-height: 33px;
+font-size: 24px;
+color: #333;
+text-decoration: none;
+}
+
+.manage_second{
+float: right;
+position: relative;
+
+}
+
+.money{
+position: absolute;
+top: 650px;
+right: 550px;
+}
+
+.monay_img{
+position: absolute;
+top: -46px;
+left: 123px;
+}
+
+.footer{
+width: 100%;
+display: block;
+position: relative;
+
+}
+
+.all_elements{
+position: absolute;
+top: 950px;
+width: 100%;
+left: 0px;
+height: 223px;
+background: #30292F;
+display: inline-block;
+box-sizing: border-box;
+}
+
+.address{
+float: left;
+width: 50%;
+}
+
+.contact_ad{
+margin-left: 100px;
+margin-top: 45px;
+width: 134px;
+height: 30px;
+font-family: Avenir;
+font-size: 18px;
+line-height: 25px;
+color: rgba(255, 255, 255, 0.7);
+}
+
+.contact_lorem{
+margin-left: 100px;
+font-family: Nunito;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 33px;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+}
+
+.text_type{
+float: right;
+width: 50%;
+display: inline-block;
+}
+
+.input_type_p{
+margin-top: 30px;
+margin-left: 275px;
+font-family: Avenir;
+font-size: 18px;
+line-height: 25px;
+color: rgba(255, 255, 255, 0.7);
+}
+
+.input_type{
+margin-top: 10px;
+margin-left: 275px;
+width: 245px;
+height: 48px;
+font-size: 16px;
+border: 0;
+padding-left: 100px;
+color: rgba(62, 61, 61, 0.5);
+text-align: left;
+}
+
+
+.input_button{
+margin-top: 10px;
+margin-left: -4px;
+width: 80px;
+height: 49px;
+background-color: #1768AC;
+border-radius: 2px;
+color:#fff;
+}
+
+.line{
+position: absolute;
+top: 140px;
+width: 1265px;
+height: 3px;
+margin-left: 100px;
+background: rgba(218, 218, 218, 0.43)
+}
+
+.about_us{
+display: flex;
+justify-content: space-between;
+}
+
+#foot_nav_left_first{
+position: absolute;
+top: 170px;
+left: 100px;
+font-family: Avenir;
+font-size: 16px;
+line-height: 19px;
+color: rgba(255, 255, 255, 0.7);
+text-decoration: none;
+}
+
+#foot_nav_left_second{
+position: absolute;
+top: 170px;
+left: 190px;
+font-family: Avenir;
+font-size: 16px;
+line-height: 19px;
+color: rgba(255, 255, 255, 0.7);
+text-decoration: none;
+}
+
+.faq{
+float: right;
+}
+
+#foot_nav_right_first{
+position: absolute;
+top: 170px;
+right: 160px;
+font-family: Avenir;
+font-size: 16px;
+line-height: 19px;
+color: rgba(255, 255, 255, 0.7);
+text-decoration: none;
+}
+
+#foot_nav_right_second{
+position: absolute;
+top: 170px;
+right: 280px;
+font-family: Avenir;
+font-size: 16px;
+line-height: 19px;
+color: rgba(255, 255, 255, 0.7);
+text-decoration: none;
+}
